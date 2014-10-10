@@ -31,3 +31,6 @@ alias sobash='source ~/.bashrc'
 alias statusa='/opt/orbitz/atlas/version-2/2.48.1/bin/status.py -a'
 alias stopa='/opt/orbitz/atlas/version-2/2.48.1/bin/stop.py -a'
 alias vims='vim -S ~/session.vim'
+
+# NPM utils
+alias js-beautify='~/node_modules/js-beautify/js/bin/js-beautify.js'
