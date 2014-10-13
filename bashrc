@@ -22,6 +22,7 @@ alias showb='git diff --name-only `git merge-base HEAD origin/master`'
 alias showo='git show --name-only HEAD'
 alias showom='git diff --name-only origin/master'
 
+alias g='gradle'
 alias growlme='python ~/bin/growlme.py'
 alias gs='git status'
 alias jshint='node ~/node_modules/jshint/bin/jshint'
