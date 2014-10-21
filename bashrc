@@ -33,5 +33,8 @@ alias statusa='/opt/orbitz/atlas/version-2/2.48.1/bin/status.py -a'
 alias stopa='/opt/orbitz/atlas/version-2/2.48.1/bin/stop.py -a'
 alias vims='vim -S ~/session.vim'
 
+# Projects
+alias algs='cd ~/Dropbox/Coursera/Algorithms\ I/'
+
 # NPM utils
 alias js-beautify='~/node_modules/js-beautify/js/bin/js-beautify.js'
