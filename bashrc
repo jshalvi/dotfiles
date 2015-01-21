@@ -8,15 +8,14 @@ export JAVA_HOME="/usr/local/java/jdk1.7"
 alias diffb='git diff `git merge-base HEAD origin/master`'
 alias diffo='git diff -w HEAD~1'
 alias diffom='git diff origin/master'
-alias done='python ~/bin/done.py'
 alias ft='cd /home/jshalvi/Projects/orbitz-ft'
 
 # Git
 alias gco='git checkout'
 alias gd='git diff --color'
 alias gff='git merge --ff-only'
-alias gl='git log --graph --oneline --decorate --color=auto'
-alias gll='git log --graph --oneline --decorate --color=auto -5'
+alias gll='git log --graph --oneline --decorate --color=auto'
+alias gl='git log --graph --oneline --decorate --color=auto -5'
 alias grh='git reset --hard'
 alias showb='git diff --name-only `git merge-base HEAD origin/master`'
 alias showo='git show --name-only HEAD'
@@ -35,6 +34,3 @@ alias vims='vim -S ~/session.vim'
 
 # Projects
 alias algs='cd ~/Dropbox/Coursera/Algorithms\ I/'
-
-# NPM utils
-alias js-beautify='~/node_modules/js-beautify/js/bin/js-beautify.js'
