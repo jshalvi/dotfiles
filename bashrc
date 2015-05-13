@@ -3,6 +3,7 @@ PS1="[@\h:\W] "
 set completion-ignore-case on
 
 # Git
+alias d='git difftool `git merge-base HEAD origin/master`'
 alias diffb='git diff `git merge-base HEAD origin/master`'
 alias diffo='git diff -w HEAD~1'
 alias diffom='git diff origin/master'
