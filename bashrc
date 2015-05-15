@@ -1,4 +1,6 @@
 PS1="[@\h:\W] "
+PATH="${PATH}:~/bin"
+PATH="${PATH}:~/bin/tools"
 
 set completion-ignore-case on
 
