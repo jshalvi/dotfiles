@@ -27,3 +27,7 @@ alias proj='cd ~/Projects'
 alias sdr='screen -rd dev'
 alias sobash='source ~/.bashrc'
 alias vims='vim -S ~/session.vim'
+
+bind "set completion-ignore-case on"
+
+source ~/.dotfiles/git-completion.bash
