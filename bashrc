@@ -3,7 +3,7 @@ source ~/.dotfiles/git-prompt.sh
 
 __tree_status()
 {
-    echo `git status` | grep "nothing to commit" > /dev/null 2>&1;
+    echo `git status 2> /dev/null` | grep "nothing to commit" > /dev/null
 
     if [ "$?" -eq "0" ];
     then
