@@ -39,8 +39,6 @@ alias showom='git diff --name-only origin/master'
 
 
 alias g='gradle'
-alias gk='gulp karma'
-alias grunt='~/node_modules/grunt-cli/bin/grunt'
 alias growlme='python ~/bin/growlme.py'
 alias gs='git status'
 alias proj='cd ~/Projects'
@@ -48,5 +46,9 @@ alias sdr='screen -rd dev'
 alias sobash='source ~/.bashrc'
 alias vims='vim -S ~/session.vim'
 
-bind "set completion-ignore-case on"
+alias gisth='~/bin/gist-html.sh'
 
+alias writing='cd ~/Dropbox/Writing'
+alias sk='cd ~/Dropbox/Writing/Sketch/Magnet\ Sketch\ 2/'
+alias repos='cd ~/Repositories'
+alias ij='open -a IntelliJ\ IDEA'
